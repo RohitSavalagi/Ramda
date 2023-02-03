@@ -22,10 +22,6 @@ body{
     color: #4bcaff;
 }
 
-.nav{
-    
-}
-
 a{
     margin: 0;
 }
@@ -90,7 +86,7 @@ a{
     padding: 0 25px;
 }
 
-main{
+.main{
     display: flex;
     justify-content: space-between;
 }
