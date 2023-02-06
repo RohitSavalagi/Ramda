@@ -1,97 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ramda</title>
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <header>
-      <a href="#">
-        <h1 class="mt-60 fs-80 dis-in fc-b">
-          Ra
-          <h1 class="dis-in fs-80 hfc">mda.js</h1>
-        </h1>
-      </a>
-      <nav class="w-1280 mt-45px hei-69 nav-b-c dis-flex">
-        <ul class="navList dis-flex mauto fc-w">
-          <li id="asLi1" class="fs-li li-padd">
-            <a class="fc-w td-none" href="#asLi1">Functional Programming</a>
-          </li>
-          <li id="asLi2" class="fs-li li-padd">
-            <a href="#asLi2" class="fc-w td-none">Rambda</a>
-          </li>
-          <li id="asLi3" class="fs-li li-padd">
-            <a class="fc-w td-none" href="#asLi3">Fantasy Land Spec</a>
-          </li>
-          <li id="asLi4" class="fs-li li-padd">
-            <a class="fc-w td-none" href="#asLi4">Node.js for all</a>
-          </li>
-        </ul>
-      </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramda</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+      <div class="container">
+        <a class="header__element_logo">
+          <span class="header__text">Ra</span><span class="header__text_blue">mbda.js</span>
+        </a>
+        <nav class="nav header__nav">
+          <a href="#" class="header__item">Functional Programming</a><a href="#" class="header__item">Rambda</a><a href="#" class="header__item">Fantasy Land Spec</a><a href="#" class="header__item">Node.js for all</a>
+        </nav>
+      </div>
     </header>
-    <main class="dis-flex flex-col mt-50">
-      <div class="dis-flex justi-spacebtn">
-        <aside class="w-344 h-390">
-          <li id="asideLi1" class="selected h-78">
-            <a href="#asideLi1" class="dis-blo mauto pad-20px fs-27 td-none f-c">Ramda</a>
-          </li>
-          <li id="asideLi2" class="selected h-78">
-            <a href="#asideLi2" class="dis-blo mauto pad-20px fs-27 td-none f-c"
-              >Why Ramda?</a
-            >
-          </li>
-          <li id="asideLi3" class="selected h-78">
-            <a href="#asideLi3" class="dis-blo mauto pad-20px fs-27 td-none f-c"
-              >What's Different</a
-            >
-          </li>
-          <li id="asideLi4" class="selected h-78">
-            <a href="#asideLi4" class="dis-blo mauto pad-20px fs-27 td-none f-c"
-              >Introductions</a
-            >
-          </li>
-          <li id="asideLi5" class="selected h-78">
-            <a href="#asideLi5" class="dis-blo mauto pad-20px fs-27 td-none f-c"
-              >Philosophy</a
-            >
-          </li>
+    <main>
+      <div class="container main">
+        <aside class="sidebar">
+          <a href="#" class="sidebar__item">Ramda</a>
+          <a href="#" class="sidebar__item">Why Ramda?</a>
+          <a href="#" class="sidebar__item">What's Different?</a>
+          <a href="#" class="sidebar__item">Introduction</a>
+          <a href="#" class="sidebar__item">Philosophy</a>
         </aside>
-        <div class="dis-flex al w-885 h-529 ali-cen just-cen">
-          <img class="w-320 h-381" src="./img/logo.JPG" alt="Rambda Image" />
+        <div class="main__container">
+          <div class="main__wrapper_img">
+            <img class="main__image" src="./img/logo.JPG" alt="Rambda image"/>
+          </div>
+          <article class="main__wrapper_para">
+            <p class="main__paragraph">
+              Lorem ipsum is a classic pangram, a conditional, often meaningless placeholder text inserted into a layout
+              Page.
+              It has been used as a placeholder since at least the sixteenth century. Is a distorted excerpt from Marcus
+              Tullius
+              Cicero's philosophical treatise On the Limits of Good and Evil, written in Latin in 45 BC language,
+              similarity
+              detection is attributed to Richard McClintock
+            </p>
+            <p class="main__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+          </article>
+        </div>
+        </div>
+    </main>
+    <footer class="">
+      <div class="container footer">
+        <div class="footer__element_nav">
+          <a href="#" class="footer__item">Ramda</a>
+          <a href="#" class="footer__item">Why Ramda?</a>
+          <a href="#" class="footer__item">What's Different?</a>
+          <a href="#" class="footer__item">Introductions</a>
+          <a href="#" class="footer__item">Philosophy</a>
+        </div>
+        <div class="footer__element_copyright">
+          Copyright © 2018
         </div>
       </div>
-      <article class="paras mt-50">
-      <p class="w-815 h-114 fs-18 lh-1d33">
-        Lorem ipsum — классическая панграмма, условный, зачастую бессмысленный текст-заполнитель, вставляемый в макет страницы. Используется в качестве заполнителя по крайней мере с XVI века. Является искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства атрибутируется Ричарду МакКлинтоку.
-      </p>
-      <p class="w-815 h-114 fs-18 lh-1d33">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
-    </article>
-    </main>
-    <footer class="w-1280 hei-69 dis-flex footer-bg-c justi-spacebtn mt-50">
-      <div class="footer dis-flex ali-cen">
-        <ul class="footerList dis-flex ">
-          <li id="footLi1"><a href="#footLi1" class="fs-28 pad-24px td-none col">Ramda</a></li>
-          <li id="footLi2"><a href="#footLi2" class="fs-28 pad-24px td-none col">Why Ramda?</a></li>
-          <li id="footLi3"><a href="#footLi3" class="fs-28 pad-24px td-none col">What's Different?</a></li>
-          <li id="footLi4"><a href="#footLi4" class="fs-28 pad-24px td-none col">Introductions</a></li>
-          <li id="footLi5"><a href="#footLi5" class="fs-28 pad-24px td-none col">Philosophy</a></li>
-        </ul>
-      </div>
-      <div class="dis-flex ali-cen fs-24 padd">
-        <p >Copyright © 2018</p>
-      </div>
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>
