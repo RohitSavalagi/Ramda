@@ -5,6 +5,7 @@ html{
 
 body{
     padding: 0;
+    font-family: sans-serif;
 }
 
 .container{
@@ -49,18 +50,15 @@ a{
 }
 
 .main__container{
-    width: 885px;
-    margin-top: 51px;
+    flex-basis: 70%;
 }
 
 .main__image{
-    width: 320px;
-    height: 381px;
     transition: transform 0.4s ease-in-out;
 }
 
 .main__image:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .main__wrapper_img{
@@ -73,9 +71,6 @@ a{
 }
 
 .main__wrapper_para{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
     margin-top: 50px;
     text-align: justify;    
 }
@@ -84,11 +79,15 @@ a{
     font-size: 18px;
     line-height: 1.33;
     padding: 0 25px;
+    margin-bottom: 25px;
+}
+.main__paragraph:last-child{
+    margin-bottom: 0;
 }
 
 .main{
     display: flex;
-    justify-content: space-between;
+    margin-top: 51px;
 }
 
 .footer{
@@ -110,7 +109,7 @@ a{
 .footer__item{
     text-decoration: none;
     color: #0c1927;
-    font-size: 28px;
+    font-size: 24px;
     border-bottom: 2px solid transparent;
 }
 
@@ -123,9 +122,11 @@ a{
 
 .sidebar {
     width: 344px;
-    margin-top: 51px;
     border: 1px solid black;
-    align-self: start;
+}
+
+.sidebar__wrapper{
+    flex-basis: 30%;
 }
 
 .sidebar__item:hover {
@@ -146,7 +147,7 @@ a{
 }
 
 .footer__element_copyright{
-    line-height: 3;
+    padding: 20px;
     font-size: 24px;
     margin-right: 34px;
 }
